@@ -1,5 +1,6 @@
 {
   "env": {
-    "MONGO_ATLAS_PW": "bartmant2304"
+    "MONGO_ATLAS_PW": "bartmant2304",
+    "JWT_KEY": "secret"
   }
 }

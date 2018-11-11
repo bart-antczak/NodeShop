@@ -7,4 +7,4 @@ const productSchema = mongoose.Schema({
     productImage: { type: String, required: true }
 });
 
-module.exports = mongoose.model('Prod uct', productSchema);
+module.exports = mongoose.model('Product', productSchema);
