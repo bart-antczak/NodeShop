@@ -9,7 +9,7 @@ const orderRoutes = require('./api/routes/orders');
 const userRoutes = require('./api/routes/user');
 
 
-mongoose.connect('mongodb://localhost/node-shop',
+mongoose.connect('mongodb://bartmant.tech/node-shop',
     { useNewUrlParser: true }
 );
 mongoose.Promise = global.Promise;
